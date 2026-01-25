@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
+  base: '/portfol/',
   server: {
     host: '0.0.0.0',  // allows external connections (required for ngrok)
     port: 5173,       // ensures consistent port for ngrok
