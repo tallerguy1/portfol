@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail, ArrowDown } from 'lucide-react';
+import { Github, Telegram, Mail, ArrowDown } from 'lucide-react';
 import bag from "../public/profile.jpg";
 
 export default function Hero() {
@@ -26,7 +26,7 @@ export default function Hero() {
         </h1>
 
         <p className="text-xl md:text-2xl text-gray-300 mb-4">
-          Full Stack Developer & Designer
+          Full Stack Developer & UI Designer
         </p>
 
         <p className="text-lg text-gray-400 max-w-2xl mx-auto mb-12">
@@ -44,11 +44,11 @@ export default function Hero() {
             <Github size={24} />
           </a>
           <a
-            href="https://linkedin.com" target="_blank" 
+            href="https://te.com/Tallguy00" target="_blank" 
             rel="noopener noreferrer"
             className="p-3 rounded-full bg-slate-800 hover:bg-cyan-500 transition-all duration-300 hover:scale-110" 
             > 
-            <Linkedin size={24} /> 
+            <Telegram size={24} /> 
           </a>
           <a
             href="https://mail.google.com/mail/u/0/#inbox"

@@ -1,4 +1,4 @@
-import { Heart, Github, Linkedin, Mail } from 'lucide-react';
+import { Heart, Github, Telegram, Mail } from 'lucide-react';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -54,12 +54,12 @@ export default function Footer() {
                 <Github size={20} />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://te.com/Tallguy00"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 rounded-lg bg-slate-800 hover:bg-cyan-500 transition-all duration-300"
               >
-                <Linkedin size={20} />
+                <Telegram size={20} />
               </a>
               <a
                 href="https://mail.google.com/mail/u/0/#inbox"
