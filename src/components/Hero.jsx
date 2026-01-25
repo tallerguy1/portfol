@@ -13,7 +13,7 @@ export default function Hero() {
       <div className="container mx-auto text-center">
         <div className="mb-8 animate-fade-in">
           <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-gradient-to-br from-cyan-400 to-blue-600 flex items-center justify-center text-5xl font-bold">
-            <img src="profile.jpg" alt="Alazar" className='w-40 h-39 rounded-full mx-auto flex items-center justify-center border-4 border-blue-500 object-cover shadow-lg mb-'/>
+            <img src="./profile.JPG" alt="Alazar" className='w-40 h-39 rounded-full mx-auto flex items-center justify-center border-4 border-blue-500 object-cover shadow-lg mb-'/>
           </div>
         </div>
 
