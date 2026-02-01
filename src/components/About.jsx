@@ -55,15 +55,15 @@ export default function About() {
         <div className="mt-16 bg-gradient-to-r from-cyan-500/10 to-blue-500/10 rounded-2xl p-8 md:p-12 border border-cyan-500/20">
           <div className="grid md:grid-cols-3 gap-8 text-center">
             <div>
-              <div className="text-4xl font-bold text-cyan-400 mb-2">50+</div>
+              <div className="text-4xl font-bold text-cyan-400 mb-2">5+</div>
               <div className="text-gray-400">Projects Completed</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-cyan-400 mb-2">5+</div>
+              <div className="text-4xl font-bold text-cyan-400 mb-2">2+</div>
               <div className="text-gray-400">Years Experience</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-cyan-400 mb-2">30+</div>
+              <div className="text-4xl font-bold text-cyan-400 mb-2">3+</div>
               <div className="text-gray-400">Happy Clients</div>
             </div>
           </div>

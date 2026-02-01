@@ -1,5 +1,4 @@
-import { Github, Telegram, Mail, ArrowDown } from 'lucide-react';
-import bag from "../public/profile.jpg";
+import { Github, Linkedin, Mail, ArrowDown } from 'lucide-react';
 
 export default function Hero() {
   const scrollToContact = () => {
@@ -14,8 +13,8 @@ export default function Hero() {
       <div className="container mx-auto text-center">
         <div className="mb-8 animate-fade-in">
           <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-gradient-to-br from-cyan-400 to-blue-600 flex items-center justify-center text-5xl font-bold">
-          <img src={bag}  alt="Alazar"
-          className="w-40 h-40 rounded-full mx-auto border-4 border-blue-500 object-cover shadow-lg"
+          <img src="https://i.pinimg.com/1200x/0b/56/63/0b566358e6c8e8e77a1aac5ebfb5074d.jpg"  alt="Alazar"
+          className="w-40 h-40 rounded-full mx-auto  object-cover "
           />
 
           </div>
@@ -44,11 +43,11 @@ export default function Hero() {
             <Github size={24} />
           </a>
           <a
-            href="https://te.com/Tallguy00" target="_blank" 
+            href="https://Linkedin.com" 
             rel="noopener noreferrer"
             className="p-3 rounded-full bg-slate-800 hover:bg-cyan-500 transition-all duration-300 hover:scale-110" 
             > 
-            <Telegram size={24} /> 
+            <Linkedin size={24} /> 
           </a>
           <a
             href="https://mail.google.com/mail/u/0/#inbox"
